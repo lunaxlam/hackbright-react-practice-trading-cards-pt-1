@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Cards{% endblock %}
+
+{% block js %}
+<script src="/static/js/tradingCard.jsx" type="text/jsx"></script>
+{% endblock %}
+
+
+{% block body %}
+<div id="all-cards" class="grid">
+  <!-- Mount Balloonicorn's card on to this element. -->
+  <div id="balloonicorn"></div>
+
+  <!-- Mount Float's card on to this element. -->
+  <div id="float"></div>
+
+  <!-- Mount Llambda's card on to this element. -->
+  <div id="llambda"></div>
+
+  <!-- Mount Off-by-One's card on to this element. -->
+  <div id="off-by-one"></div>
+
+  <!-- Mount Polymorphism's card on to this element. -->
+  <div id="polymorphism"></div>
+
+  
+</div>
+
+{% endblock %}
